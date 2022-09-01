@@ -23,6 +23,12 @@ public class App {
 		// Add to cart a "watch" with the help of method of product1 class
 		product1.getWatch(driver);
 
+                // redirect to home page
+		driver.findElement(By.id("twotabsearchtextbox")).clear();
+
+		// Add to cart a "IPhone" with the help of method of product2 class
+		product2.getIPhone(driver);
+
 	}
 
 }
