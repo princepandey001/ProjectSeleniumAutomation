@@ -1,0 +1,18 @@
+contributors : Prince Pandey , Doulat ram
+
+We are using Selenium in maven (java programming language) for doing this automation task for "https://amazon.in" Website.
+
+There are two contributors as mentioned above. 
+
+Sub Task :
+     
+    Prince Pandey : Working on adding chrome driver to project , searching product name (apple watch),
+                    Window Handler for managing different tabs of chrome window, Changing colour of watch
+                    and add to cart.
+
+    Doulat Ram    : Working on Redirection on home page of Amazon Website with the help of window handler,
+                    Searching Second Product (IPhone 13), Again creating window handler for managing second tab 
+                    of chrome window, change quantity 1 to 2 of iphone 13, Add to cart that item.   
+
+
+Technology & Tools used : Java, Selenium WebDriver, Window Handler, xml, maven project, eclipse IDE;
