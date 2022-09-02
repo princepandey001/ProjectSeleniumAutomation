@@ -17,7 +17,7 @@ public class product2 {
 
 		String parentHandle = driver.getWindowHandle();
 
-		driver.findElement(By.xpath("//span[text()='Apple iPhone 13 (128GB) - Blue']")).click();
+		driver.findElement(By.xpath("//*[contains(@class, 'widgetId=search-results_3')]//span[contains(text(), 'Apple iPhone 13 (128GB) - Midnight')]")).click();
 		Set<String> handles = driver.getWindowHandles();
 
 		for (String handle : handles) {
